@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-pnp-crud-assignment-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spPnpCrudAssignment/SpPnpCrudAssignmentWebPart.js",
+          "manifest": "./src/webparts/spPnpCrudAssignment/SpPnpCrudAssignmentWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpPnpCrudAssignmentWebPartStrings": "lib/webparts/spPnpCrudAssignment/loc/{locale}.js"
+  }
+}
